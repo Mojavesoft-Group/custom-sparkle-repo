@@ -7,6 +7,11 @@
 class FakeMod { // Ugh.
     constructor() {}
 }
+
+class Color { // Make example.js work properly.
+    constructor() {}
+}
+
 const {
     compileFunction
 } = require('vm');
