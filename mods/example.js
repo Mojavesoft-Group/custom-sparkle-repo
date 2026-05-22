@@ -1,5 +1,5 @@
 return class extends Mod {
-    // Metadata
+    // Metadata 
     ID = "example-mod"; // the id of the mod
     NAME = "Example Mod"; // human-readable name
     DESCRIPTION = "A example mod for Sparkle."; // description
