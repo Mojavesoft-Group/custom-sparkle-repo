@@ -7,8 +7,7 @@ genreturn class extends Mod {
     AUTHOR = "Your Name"; // author
     DEPENDS = []; // dependencies (mod ids, useful for libraries)
     DO_MENU = true; // whether to add a menu item
-    OPTIONS_FORMAT = [
-    ]; // format for options
+    OPTIONS_FORMAT = []; // format for options
 
     // Main function - gets ran when the mod is loaded
     main() {
