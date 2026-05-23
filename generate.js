@@ -1,9 +1,9 @@
 // generate.js
-// 
-// using mods from mods folder, generate mods.json
-// with the info from the mods 
 //
-
+// using mods from mods folder, generate mods.json
+// with the info from the mods
+//
+ 
 class FakeMod { // Ugh.
     constructor() {}
 }
