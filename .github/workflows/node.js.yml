@@ -5,6 +5,8 @@ on:
     workflows: ["Auto-format Javascript"]
     types:
       - completed
+  
+  workflow_dispatch:
 
 jobs:
   build:
