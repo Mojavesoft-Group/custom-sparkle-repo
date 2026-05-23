@@ -21,7 +21,7 @@ jobs:
       uses: actions/setup-node@v6
       with:
         node-version: ${{ matrix.node-version }}
-    - run: apt install curl && curl https://raw.githubusercontent.com/Mojavesoft-Group/SparkleAddons/refs/heads/master/generate.js | node /dev/stdin && cat mods.json && git pull && cat mods.json
+    - run: curl https://raw.githubusercontent.com/Mojavesoft-Group/SparkleAddons/refs/heads/master/generate.js | node /dev/stdin && cat mods.json && git pull && cat mods.json
     
     - name: Commit changes
       uses: EndBug/add-and-commit@v10 # You can change this to use a specific version.
