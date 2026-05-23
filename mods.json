@@ -1,0 +1,9 @@
+[
+    {
+        "version": "1.0",
+        "name": "Example Mod",
+        "description": "A example mod for Sparkle.",
+        "author": "Your Name",
+        "id": "example-mod"
+    }
+]
